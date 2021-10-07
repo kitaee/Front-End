@@ -1,0 +1,53 @@
+.nav{
+    height : 60px;
+}
+
+.top-left{
+    float : left;
+}
+
+.top-right{
+    float : right;
+}
+
+.main{
+    height : 700px;
+    background-image : url("picture/basketball.png");
+    background-repeat: no-repeat;
+    background-size : 100% 100%;
+}
+
+.main_word{
+    color : white;
+    font-weight : bold;
+    padding-left : 100px;
+    padding-top : 40px;
+}
+
+#top_word{
+    font-size : 35px;
+    padding-top : 100px;
+}
+
+#middle_word{
+    font-size : 60px;
+    padding-top : 30px;
+}
+
+#bottom_word{
+    font-size : 25px;
+    padding-top : 30px;
+}
+  
+.navyBtn{
+    background-color: transparent !important;
+    height : 40px;
+    width : 120px;
+    color : white;
+    font-weight: bold;
+    border : 2px white solid;
+    margin-left : 96px;
+    margin-top : 40px;
+    border-radius: 23px;
+    font-size : 20px;
+}
