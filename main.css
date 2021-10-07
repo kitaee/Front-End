@@ -2,11 +2,39 @@
     height : 60px;
 }
 
-.top-left{
+.top-left, .logo, .login, .join{
     float : left;
 }
 
-.top-right{
+.logoBtn, .joinBtn, .loginBtn, .questionBtn{
+    margin-top: 10px;
+}
+
+
+.logoBtn{
+    font-size : 25px;
+    border : 0;
+    outline: 0;
+    background-color: white;
+    font-weight : bold;
+    margin-left : 70px;
+}
+
+.questionBtn, .loginBtn, .joinBtn{
+    font-size : 20px;
+    background-color: #2CB2D5;
+    color : white;
+    font-weight : bold;
+    border : 2px solid #2CB2D5;
+    border-radius : 25px;
+}
+
+
+.questionBtn{
+    margin-right : 40px;
+}
+
+.top-right, .question{
     float : right;
 }
 
