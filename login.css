@@ -88,4 +88,72 @@
     margin-top : 10px;
     margin-left : 55px;
 }
+
+.complete_login{
+    font-weight : bold;
+    font-size : 18px;
+    color : white;
+    background-color: #F8475A;
+    border : 1px solid #F8475A;
+    width : 320px;
+    height : 50px;
+    margin-top : 30px;
+    margin-left : 110px;
+}
     
+.join1, .find_id, .find_pw{
+    font-weight : bold;
+    font-size : 18px;
+    border : 0;
+    outline : 0;
+    background-color : white;
+    margin-top : 25px;
+    margin-left : 25px;
+}
+
+.join1{
+    margin-left : 138px;
+}
+
+.click_join{
+    border-bottom : 1px solid #E0E6E8;
+    height : 70px;
+    padding-left : 10px;
+}
+
+.payco_login{
+    font-weight : bold;
+    font-size : 18px;
+    color : #F8475A;
+    background-color: white;;
+    border : 1px solid #F8475A;
+    width : 320px;
+    height : 50px;
+    margin-top : 30px;
+    margin-left : 110px;
+}
+
+#naver_logo, #facebook_logo{
+    width : 35px;
+    height : 35px;
+    border-radius : 70%;
+}
+
+.naver_login, .facebook_login{
+    background-color : white;
+    font-weight : bold;
+    border : 0;
+    outline : 0;
+    margin-top : 10px;
+}
+
+.naver_login{
+    float : left;
+    margin-left : 160px;
+}
+
+.facebook_login{
+    float : right;
+    margin-right : 165px;
+}
+
