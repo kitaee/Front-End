@@ -1,81 +1,121 @@
 .nav{
-    height : 60px;
+    height : 70px;
+    border-bottom : 1px solid #E0E6E8;
 }
 
-.top-left, .logo, .login, .join{
+.nav_question, .nav_main, .nav_login{
     float : left;
 }
 
-.logoBtn, .joinBtn, .loginBtn, .questionBtn{
-    margin-top: 10px;
+.enter, .nav_join{
+    float : right;
 }
 
-
 .logoBtn{
-    font-size : 25px;
+    font-size : 40px;
     border : 0;
     outline: 0;
     background-color: white;
     font-weight : bold;
-    margin-left : 70px;
+    margin-left : 570px;
+    
 }
 
 .questionBtn, .loginBtn, .joinBtn{
-    font-size : 20px;
-    background-color: #2CB2D5;
-    color : white;
+    font-size : 15px;
+    border : 0;
+    outline : 0;
+    background-color : white;
     font-weight : bold;
-    border : 2px solid #2CB2D5;
-    border-radius : 25px;
-}
-
-
-.questionBtn{
-    margin-right : 40px;
-}
-
-.top-right, .question{
-    float : right;
-}
-
-.main{
-    height : 700px;
-    background-image : url("picture/basketball.png");
-    background-repeat: no-repeat;
-    background-size : 100% 100%;
-}
-
-.main_word{
-    color : white;
-    font-weight : bold;
-    padding-left : 100px;
-    padding-top : 40px;
-}
-
-#top_word{
-    font-size : 35px;
-    padding-top : 100px;
-}
-
-#middle_word{
-    font-size : 60px;
-    padding-top : 30px;
-}
-
-#bottom_word{
-    font-size : 25px;
-    padding-top : 30px;
-}
-  
-.navyBtn{
-    background-color: transparent !important;
-    height : 40px;
-    width : 120px;
-    color : white;
-    font-weight: bold;
-    border : 2px white solid;
-    margin-left : 96px;
     margin-top : 40px;
-    border-radius: 23px;
-    font-size : 20px;
+}
+
+#grid{
+    display : grid;
+    grid-template-columns: 150px 1fr 150px;
+}
+
+.left_space, .right_space{
+    background-color: #E0E6E8;
+    height : 725px;
+}
+
+#grid1,#grid2,#grid3,#grid4{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#grid1, #grid3{
+    height : 250px;
+}
+
+.best_seller_title{
+    font-size : 27px;
+    font-weight : bold;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    color : red;
+}
+
+.best_product1_picture{
+    background-image:url(picture/best1.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.best_product2_picture{
+    background-image:url(picture/best2.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.best_product3_picture{
+    background-image:url(picture/best3.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.best_product4_picture{
+    background-image:url(picture/best4.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.today_product1_picture{
+    background-image : url(picture/today1.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.today_product2_picture{
+    background-image : url(picture/today2.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.today_product3_picture{
+    background-image : url(picture/today3.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.today_product4_picture{
+    background-image : url(picture/today4.png);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.today_seller_title{
+    font-size : 27px;
+    font-weight : bold;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 5px;
+    color : red;
+}
+
+.best_product1_info, .best_product2_info, .best_product3_info, .best_product4_info, .today_product1_info, .today_product2_info, .today_product3_info, .today_product4_info{
+    text-align : center;
+    font-weight : bold;
 }
