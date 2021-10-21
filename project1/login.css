@@ -12,6 +12,15 @@ body{
     font-size : 40px;
 }
 
+.factory_button{
+    margin-top : 7px;
+    border:none;
+    background-color : black;
+    color : white;
+    font-weight : bold;
+    font-size : 40px;
+}
+
 #grid{
     display : grid;
     grid-template-columns: 100px 1fr 100px;
@@ -52,7 +61,7 @@ body{
 
 #grid1{
     display : grid;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top : 10px;
 }
 
@@ -73,5 +82,3 @@ body{
     margin-right : 100px;
     width : 120px;
 }
-
-
